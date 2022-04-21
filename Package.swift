@@ -34,7 +34,7 @@ let package = Package(
                 cSettings: [
                     .headerSearchPath("."),
                 ],
-                swiftSettings: [ .define("IS_SWIFT_PACKAGE")]),),
+                swiftSettings: [ .define("IS_SWIFT_PACKAGE")]),
         .target(name: "CocoaLumberjackSwiftSupport",
                 dependencies: ["CocoaLumberjack"], 
                 swiftSettings: [ .define("IS_SWIFT_PACKAGE")]),
