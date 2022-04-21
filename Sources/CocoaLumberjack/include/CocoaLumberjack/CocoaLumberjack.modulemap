@@ -1,0 +1,4 @@
+module CocoaLumberjack {
+  umbrella ""
+  export *
+}
